@@ -1,0 +1,44 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "gEy3Gnc2y6YSGI-VC8gcX"
+uri = "file://artifacts/digital-sathi/src/assets/images/portfolio-dental.png"
+type = "image"
+title = "Dental clinic website mockup"
+
+[[generated]]
+id = "LKgBbtm3yNDVAAFm2mGy9"
+uri = "file://artifacts/digital-sathi/src/assets/images/portfolio-school.png"
+type = "image"
+title = "School website mockup"
+
+[[generated]]
+id = "fERJlGRGrRGBoRsHewJY8"
+uri = "file://artifacts/digital-sathi/src/assets/images/portfolio-hardware.png"
+type = "image"
+title = "Hardware store website mockup"
+
+[[generated]]
+id = "TbK24cYm6WG3yzt1Hc2CV"
+uri = "file://artifacts/digital-sathi/src/assets/images/avatar-rajesh.png"
+type = "image"
+title = "Rajesh Kumar avatar"
+
+[[generated]]
+id = "5-9gh6wdJxuPgOOnGTmdc"
+uri = "file://artifacts/digital-sathi/src/assets/images/avatar-priya.png"
+type = "image"
+title = "Priya Sharma avatar"
+
+[[generated]]
+id = "UzkxT0Cpoliaoul4Ubi27"
+uri = "file://artifacts/digital-sathi/src/assets/images/avatar-manoj.png"
+type = "image"
+title = "Manoj Singh avatar"
+
+[[generated]]
+id = "BvMhvnOzl-NPlIxdUi3I7"
+uri = "file://artifacts/digital-sathi/src/assets/images/founder-aditya.png"
+type = "image"
+title = "Aditya Tiwari founder"

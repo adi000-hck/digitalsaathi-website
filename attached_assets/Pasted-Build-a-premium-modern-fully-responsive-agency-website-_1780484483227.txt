@@ -1,0 +1,115 @@
+Build a premium, modern, fully responsive agency website called "Digital Sathi".
+
+Business Type:
+Digital Sathi helps local businesses grow online through Website Development, AI Automation, AI Chatbots, AI Voice Agents, Social Media Presence, and Business Digitalization.
+
+Tech Stack:
+Use only HTML, CSS, and JavaScript.
+Do not use React, Next.js, Bootstrap, or any external framework.
+Keep the code clean, organized, and production-ready.
+
+Design Style:
+- Modern SaaS agency design
+- Premium glassmorphism effects
+- Smooth animations and scroll effects
+- Professional blue, purple, and white color palette
+- Mobile-first responsive design
+- Fast loading
+- High conversion focused
+
+Sections:
+
+1. Hero Section
+Headline:
+"Transform Your Business with AI & Modern Websites"
+
+Subheadline:
+"We help local businesses get more customers through professional websites, AI automation, and digital solutions."
+
+Buttons:
+- Get Free Consultation
+- View Our Work
+
+Add animated background shapes and modern visual effects.
+
+2. Services Section
+Create service cards for:
+- Website Development
+- AI Chatbots
+- AI Voice Agents
+- Business Automation
+- UI/UX Design
+- Digital Presence Setup
+
+Each card should have icons, hover effects, and descriptions.
+
+3. Why Choose Digital Sathi
+Show:
+- Fast Delivery
+- Affordable Pricing
+- AI-Powered Solutions
+- Mobile Responsive Design
+- Ongoing Support
+
+4. Portfolio Section
+Create 3 professional project showcase cards:
+- Dental Clinic Website
+- School Website
+- Kisan Traders Hardware Store
+
+Include preview images, project descriptions, and live demo buttons.
+
+5. Process Section
+Step 1: Consultation
+Step 2: Planning
+Step 3: Development
+Step 4: Launch & Support
+
+Use timeline-style design.
+
+6. Testimonials Section
+Add realistic client testimonials with profile images.
+
+7. About Founder Section
+Founder Name:
+Aditya Tiwari
+
+Text:
+"BCA Student, Web Developer, and AI Solutions Builder helping businesses build a strong online presence."
+
+Add professional profile card design.
+
+8. Contact Section
+Phone:
++91 9455128682
+
+Email:
+adityatiwari0047@gmail.com
+
+Add:
+- Contact Form
+- WhatsApp Button
+- Call Button
+- Email Button
+
+9. Footer
+Include:
+- Quick Links
+- Services
+- Contact Information
+- Social Media Icons
+
+Extra Requirements:
+- Smooth scrolling navigation
+- Sticky navbar
+- Dark/Light mode toggle
+- Scroll reveal animations
+- Loading animation
+- Back-to-top button
+- SEO-friendly structure
+- Fully mobile responsive
+- No horizontal scrolling on mobile
+- Professional spacing and typography
+- Looks like a premium agency website worth $5000+
+
+Generate complete production-ready code.
