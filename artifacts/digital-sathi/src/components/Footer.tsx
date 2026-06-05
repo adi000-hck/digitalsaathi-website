@@ -9,8 +9,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="lg:col-span-1">
             <a href="#" className="inline-block text-2xl font-black tracking-tighter text-gradient mb-4">
-              Digital Sathi
+              DigitalSaathi
             </a>
+            <p className="text-sm font-semibold uppercase tracking-[0.35em] mb-3 text-primary">
+              AI Automation • Website Development • Business Growth
+            </p>
             <p className="text-muted-foreground mb-6">
               Transforming Local Businesses, Digitally. Bringing Silicon Valley quality to the Indian market.
             </p>
@@ -18,7 +21,7 @@ export default function Footer() {
               <a href="#" className="w-10 h-10 rounded-full bg-muted flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
                 <FaFacebook size={18} />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-muted flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
+              <a href="https://www.instagram.com/digitalsaathi.ai?igsh=c283aGw0MHcwbzFs" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-muted flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
                 <FaInstagram size={18} />
               </a>
               <a href="#" className="w-10 h-10 rounded-full bg-muted flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
@@ -55,13 +58,13 @@ export default function Footer() {
             <h4 className="font-bold text-lg mb-6">Contact</h4>
             <ul className="space-y-4">
               <li className="text-muted-foreground">
-                <a href="tel:+919455128682" className="hover:text-primary transition-colors">+91 9455128682</a>
+                <a href="tel:+919565045091" className="hover:text-primary transition-colors">+91 9565045091</a>
               </li>
               <li className="text-muted-foreground">
-                <a href="mailto:adityatiwari0047@gmail.com" className="hover:text-primary transition-colors break-all">adityatiwari0047@gmail.com</a>
+                <a href="mailto:digitalsaathi.ai@gmail.com" className="hover:text-primary transition-colors break-all">digitalsaathi.ai@gmail.com</a>
               </li>
               <li className="text-muted-foreground">
-                India
+                Instagram: <a href="https://www.instagram.com/digitalsaathi.ai?igsh=c283aGw0MHcwbzFs" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors">@digitalsaathi.ai</a>
               </li>
             </ul>
           </div>
@@ -69,11 +72,11 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-muted-foreground text-sm text-center md:text-left">
-            &copy; {currentYear} Digital Sathi. All rights reserved. Made with love in India.
+            &copy; {currentYear} DigitalSaathi. All rights reserved. Made with love in India.
           </p>
           <div className="flex gap-6 text-sm text-muted-foreground">
-            <a href="#" className="hover:text-foreground transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-foreground transition-colors">Terms of Service</a>
+            <a href="/privacy-policy" className="hover:text-foreground transition-colors">Privacy Policy</a>
+            <a href="/terms" className="hover:text-foreground transition-colors">Terms & Conditions</a>
           </div>
         </div>
       </div>

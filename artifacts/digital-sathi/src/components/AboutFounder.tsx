@@ -21,7 +21,7 @@ export default function AboutFounder() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold mb-4">Meet the Founder</h2>
-          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">The vision behind Digital Sathi.</p>
+          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">The vision behind DigitalSaathi.</p>
         </motion.div>
 
         <motion.div 
@@ -35,7 +35,7 @@ export default function AboutFounder() {
             <div className="md:col-span-2 relative min-h-[300px] md:min-h-full">
               <img 
                 src={adityaImg} 
-                alt="Aditya Tiwari - Founder of Digital Sathi" 
+                alt="Aditya Tiwari - Founder of DigitalSaathi" 
                 className="absolute inset-0 w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent md:bg-gradient-to-r md:from-transparent md:to-background/90" />

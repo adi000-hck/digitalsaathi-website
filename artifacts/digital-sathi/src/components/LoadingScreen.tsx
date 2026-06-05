@@ -60,7 +60,7 @@ export default function LoadingScreen() {
             transition={{ delay: 0.3 }}
             className="mt-8 text-2xl font-black tracking-tighter text-gradient"
           >
-            Digital Sathi
+            DigitalSaathi
           </motion.div>
         </motion.div>
       )}

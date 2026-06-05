@@ -31,7 +31,7 @@ const reasons = [
 
 export default function WhyUs() {
   return (
-    <section className="py-24 bg-muted/30 relative" id="why-us">
+    <section className="py-24 bg-muted/30 relative overflow-hidden" id="why-us">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <motion.div

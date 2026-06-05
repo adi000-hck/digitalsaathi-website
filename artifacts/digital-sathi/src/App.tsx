@@ -1,3 +1,4 @@
+import { Route, Switch } from "wouter";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -15,8 +16,26 @@ import AboutFounder from "@/components/AboutFounder";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import BackToTop from "@/components/BackToTop";
+import PrivacyPolicy from "@/pages/privacy-policy";
+import Terms from "@/pages/terms";
+import NotFound from "@/pages/not-found";
 
 const queryClient = new QueryClient();
+
+function HomeContent() {
+  return (
+    <>
+      <Hero />
+      <Services />
+      <WhyUs />
+      <Portfolio />
+      <Process />
+      <Testimonials />
+      <AboutFounder />
+      <Contact />
+    </>
+  );
+}
 
 function App() {
   return (
@@ -27,14 +46,14 @@ function App() {
           <div className="min-h-[100dvh] flex flex-col font-sans">
             <Navbar />
             <main className="flex-1">
-              <Hero />
-              <Services />
-              <WhyUs />
-              <Portfolio />
-              <Process />
-              <Testimonials />
-              <AboutFounder />
-              <Contact />
+              <Switch>
+                <Route path="/" component={HomeContent} />
+                <Route path="/privacy-policy" component={PrivacyPolicy} />
+                <Route path="/terms" component={Terms} />
+                <Route>
+                  <NotFound />
+                </Route>
+              </Switch>
             </main>
             <Footer />
             <BackToTop />

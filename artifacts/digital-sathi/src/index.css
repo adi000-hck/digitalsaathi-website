@@ -158,8 +158,14 @@
     @apply border-border;
   }
 
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
   body {
     @apply font-sans antialiased bg-background text-foreground selection:bg-primary/30;
+    min-width: 100vw;
     scroll-behavior: smooth;
   }
 

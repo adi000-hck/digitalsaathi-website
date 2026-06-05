@@ -40,7 +40,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           <a href="#" className="flex items-center gap-2 z-50">
             <span className="text-2xl font-black tracking-tighter text-gradient">
-              Digital Sathi
+              DigitalSaathi
             </span>
           </a>
 

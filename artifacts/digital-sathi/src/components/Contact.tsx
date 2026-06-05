@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Phone, Mail, Send } from "lucide-react";
-import { FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp, FaInstagram } from "react-icons/fa";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
@@ -47,10 +47,15 @@ export default function Contact() {
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values);
+    const message = `New Website Inquiry\n\nName: ${values.name}\nPhone: ${values.phone}\nEmail: ${values.email}\nService: ${values.service}\nMessage: ${values.message}`;
+    const waNumber = "919565045091";
+    const encoded = encodeURIComponent(message);
+    const url = `https://wa.me/${waNumber}?text=${encoded}`;
+    const newWindow = window.open(url, "_blank");
+    if (newWindow) newWindow.opener = null;
     toast({
-      title: "Message Sent!",
-      description: "We'll get back to you within 24 hours.",
+      title: "WhatsApp Opened",
+      description: "We've opened WhatsApp to send your message.",
     });
     form.reset();
   }
@@ -78,7 +83,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-1">Phone</h4>
-                  <a href="tel:+919455128682" className="text-2xl font-bold hover:text-primary transition-colors">+91 9455128682</a>
+                  <a href="tel:+919565045091" className="text-2xl font-bold hover:text-primary transition-colors">+91 9565045091</a>
                 </div>
               </div>
               
@@ -88,20 +93,26 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-1">Email</h4>
-                  <a href="mailto:adityatiwari0047@gmail.com" className="text-2xl font-bold hover:text-primary transition-colors break-all">adityatiwari0047@gmail.com</a>
+                  <a href="mailto:digitalsaathi.ai@gmail.com" className="text-2xl font-bold hover:text-primary transition-colors break-all">digitalsaathi.ai@gmail.com</a>
                 </div>
               </div>
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
               <Button asChild size="lg" className="h-14 px-8 rounded-full bg-[#25D366] hover:bg-[#128C7E] text-white shadow-lg shadow-[#25D366]/20 font-bold gap-2 text-base">
-                <a href="https://wa.me/919455128682" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/919565045091" target="_blank" rel="noopener noreferrer">
                   <FaWhatsapp className="w-6 h-6" />
                   Chat on WhatsApp
                 </a>
               </Button>
+              <Button asChild size="lg" className="h-14 px-8 rounded-full bg-[#E1306C] hover:bg-[#C72A5D] text-white shadow-lg shadow-[#E1306C]/20 font-bold gap-2 text-base">
+                <a href="https://www.instagram.com/digitalsaathi.ai?igsh=c283aGw0MHcwbzFs" target="_blank" rel="noopener noreferrer">
+                  <FaInstagram className="w-6 h-6" />
+                  Instagram
+                </a>
+              </Button>
               <Button asChild variant="outline" size="lg" className="h-14 px-8 rounded-full glass-panel gap-2 text-base font-semibold">
-                <a href="tel:+919455128682">
+                <a href="tel:+919565045091">
                   <Phone className="w-5 h-5" />
                   Call Now
                 </a>
